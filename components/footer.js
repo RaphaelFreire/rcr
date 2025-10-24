@@ -68,7 +68,7 @@ class CustomFooter extends HTMLElement {
         <div class="footer-container">
           <div class="footer-about-col">
             <div class="footer-logo">
-               <img src="../img/logo.svg" alt="Logo" class="footer-logo"/>
+               <img src="img/logo.svg" alt="Logo" class="footer-logo"/>
             </div>
             <p class="footer-about">
              Realizamos resgate/socorro em Araras e região. Com profissionais verificados e suporte 24h, conectamos você à solução mais rápida e segura, sem complicação.

@@ -102,10 +102,10 @@ class CustomNavbar extends HTMLElement {
       </style>
       <nav>
         <div class="logo">
-         <img src="../img/logo.svg" alt="Logo" class="logo-icon"/>
+         <img src="img/logo.svg" alt="Logo" class="logo-icon"/>
         </div>
         <button class="mobile-menu-btn" id="mobileMenuBtn">
-          <img src="../img/menu.svg" width="24px" height="24px"/>         
+          <img src="img/menu.svg" width="24px" height="24px"/>         
         </button>
         <ul class="nav-links" id="navLinks">
           <li class="nav-link"><a href="/">Início</a></li>
