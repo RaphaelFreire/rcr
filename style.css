@@ -1,0 +1,64 @@
+/* Base styles */
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/* Custom styles for auto repair theme */
+.bg-blue-900 {
+  background-color: #1e3a8a;
+}
+
+.bg-orange-500 {
+  background-color: #f97316;
+}
+
+.hover\:bg-orange-600:hover {
+  background-color: #ea580c;
+}
+
+/* Hero section overlay */
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Form focus styles */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.5);
+}
+
+/* Testimonial rating stars */
+.rating-star {
+  fill: currentColor;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/* Animation for service cards */
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}

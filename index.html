@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional auto repair services with certified mechanics. Oil changes, brake repairs, engine diagnostics and more. Quality service you can trust."
+    />
+    <title>RevvedUp Auto Care | Professional Auto Repair Services</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Structured data for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AutoRepair",
+        "name": "RevvedUp Auto Care",
+        "image": "http://static.photos/automotive/1200x630/42",
+        "@id": "",
+        "url": "",
+        "telephone": "+1-555-123-4567",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Mechanic Street",
+          "addressLocality": "Auto City",
+          "addressRegion": "CA",
+          "postalCode": "90210",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 34.052235,
+          "longitude": -118.243683
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        "priceRange": "$$"
+      }
+    </script>
+  </head>
+  <body class="font-sans bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <!-- Hero Section -->
+    <section class="relative bg-blue-900 text-white overflow-hidden">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="container mx-auto px-6 py-12 relative z-10 text-center">
+        <img
+          src="img/logo.svg"
+          alt="Logo"
+          width="200px"
+          class="mx-auto mb-4 hidden md:block lg:block"
+        />
+        <h1 class="text-2xl md:text-6xl font-bold mb-4">
+          Teve problema com seu veículo?
+        </h1>
+        <p class="text-lg md:text-2xl mb-8">
+          Chegamos até você em poucos minutos. Atendimento veicular rápido,
+          seguro e prático.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+          <a
+            href="https://wa.me/5517992242020"
+            class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
+            >Fale Agora WhatsApp</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-6 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Serviços</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Service 1 -->
+          <div
+            class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="http://static.photos/automotive/640x360/101"
+              alt="Oil Change"
+              class="w-full h-32 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center mb-3">
+                <img src="img/chave.svg" width="50px" class="mr-3" />
+                <h3 class="text-lg font-semibold">Não sabe o que aconteceu?</h3>
+              </div>
+              <p class="text-gray-600">
+                Nós podemos te ajudar a identificar o problema e verificar se é
+                necessário apenas um pequeno reparo.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="http://static.photos/automotive/640x360/102"
+              alt="Brake Service"
+              class="w-full h-32 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center mb-3">
+                <img src="img/bateria.svg" width="50px" class="mr-3" />
+                <h3 class="text-lg font-semibold">
+                  Acabou a bateria do carro?
+                </h3>
+              </div>
+              <p class="text-gray-600">
+                Não se preocupe! Ajudamos com partida auxiliar ou troca de
+                bateria automotiva no local.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div
+            class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="http://static.photos/automotive/640x360/103"
+              alt="Engine Diagnostic"
+              class="w-full h-32 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center mb-3">
+                <img src="img/guincho.svg" width="50px" class="mr-3" />
+                <h3 class="text-lg font-semibold">Serviços Oferecidos</h3>
+              </div>
+              <p class="text-gray-600">
+                Pequenos reparos no local, Carga de bateria, Troca de pneu,
+                Chaveiro automotivo, Pane seca (falta de combustível).
+              </p>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div
+            class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="http://static.photos/automotive/640x360/106"
+              alt="AC Service"
+              class="w-full h-32 object-cover"
+            />
+            <div class="p-6">
+              <div class="flex items-center mb-3">
+                <img src="img/pneu.svg" width="50px" class="mr-3" />
+                <h3 class="text-lg font-semibold">Pneu furou?</h3>
+              </div>
+              <p class="text-gray-600">
+                Nossos técnicos são equipados e treinados para realizar
+                manutenções rápidas no local. Garantimos eficiência, segurança e
+                qualidade no atendimento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16">
+      <div class="container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+            <img
+              src="http://static.photos/people/640x360/201"
+              alt="Our Team"
+              class="rounded-lg shadow-lg w-full"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold mb-6">
+              Teve problema com seu veículo?
+            </h2>
+            <p class="text-gray-700 mb-6">
+              Chegamos até você em poucos minutos.
+            </p>
+            <ul class="space-y-4">
+              <li class="flex items-start">
+                <i data-feather="check-circle" class="text-green-500 mr-3"></i>
+                <span class="text-gray-700">Socorro 24H</span>
+              </li>
+              <li class="flex items-start">
+                <i data-feather="check-circle" class="text-green-500 mr-3"></i>
+                <span class="text-gray-700">Mecânica e Auto Elétrica</span>
+              </li>
+              <li class="flex items-start">
+                <i data-feather="check-circle" class="text-green-500 mr-3"></i>
+                <span class="text-gray-700">Troca de Pneu</span>
+              </li>
+              <li class="flex items-start">
+                <i data-feather="check-circle" class="text-green-500 mr-3"></i>
+                <span class="text-gray-700"
+                  >Pane Mecânica / Elétrica / Seca
+                </span>
+              </li>
+              <li class="flex items-start">
+                <i data-feather="check-circle" class="text-green-500 mr-3"></i>
+                <span class="text-gray-700"
+                  >Mais de 20 anos de experiência</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-16 bg-blue-900 text-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-12">Depoimentos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Testimonial 1 -->
+          <div class="bg-blue-800 rounded-lg p-6">
+            <div class="flex items-center mb-4">
+              <div>
+                <h4 class="font-semibold">Ellen J.</h4>
+                <div class="flex text-yellow-400">
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-blue-200">
+              Experiência excelente do início ao fim! O socorro chegou rápido e
+              me ajudou a voltar pra estrada em segurança. Profissionais
+              honestos e preço acessível.
+            </p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="bg-blue-800 rounded-lg p-6">
+            <div class="flex items-center mb-4">
+              <div>
+                <h4 class="font-semibold">Rodrigo T.</h4>
+                <div class="flex text-yellow-400">
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-blue-200">
+              Fiquei impressionado com a rapidez no atendimento! O mecânico
+              explicou tudo direitinho e resolveu o problema na hora. Serviço
+              confiável e muito atencioso.
+            </p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="bg-blue-800 rounded-lg p-6">
+            <div class="flex items-center mb-4">
+              <div>
+                <h4 class="font-semibold">Sandra M.</h4>
+                <div class="flex text-yellow-400">
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                  <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                </div>
+              </div>
+            </div>
+            <p class="text-blue-200">
+              Transformaram um momento de estresse em tranquilidade. Chegaram
+              rápido, cobraram justo e foram super prestativos. Chamaria
+              novamente sem pensar duas vezes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+      feather.replace();
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
