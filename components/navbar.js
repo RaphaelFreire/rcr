@@ -108,7 +108,6 @@ class CustomNavbar extends HTMLElement {
           <img src="img/menu.svg" width="24px" height="24px"/>         
         </button>
         <ul class="nav-links" id="navLinks">
-          <li class="nav-link"><a href="/">Início</a></li>
           <li class="nav-link"><a href="#services">Serviços</a></li>
           <li>
             <a href="https://wa.me/5517992242020" class="phone-link">
