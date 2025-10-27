@@ -86,10 +86,6 @@ class CustomFooter extends HTMLElement {
                 <i data-feather="phone" class="inline mr-2"></i>
                 (17) 99224-2020
               </li>
-              <li class="footer-link">
-                <i data-feather="mail" class="inline mr-2"></i>
-                contato@mecanicodealuguel.com.br
-              </li>
             </ul>
           </div>
         </div>
